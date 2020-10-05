@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>snort on Codin Moldovanu</title>
-    <link>CodinMoldovanu.github.io/tags/snort/</link>
+    <link>https://CodinMoldovanu.github.io/tags/snort/</link>
     <description>Recent content in snort on Codin Moldovanu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 30 May 2016 20:28:25 +0000</lastBuildDate><atom:link href="CodinMoldovanu.github.io/tags/snort/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 May 2016 20:28:25 +0000</lastBuildDate><atom:link href="https://CodinMoldovanu.github.io/tags/snort/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KISS – Sever Security</title>
-      <link>CodinMoldovanu.github.io/kiss-sever-security/</link>
+      <link>https://CodinMoldovanu.github.io/kiss-sever-security/</link>
       <pubDate>Mon, 30 May 2016 20:28:25 +0000</pubDate>
       
-      <guid>CodinMoldovanu.github.io/kiss-sever-security/</guid>
+      <guid>https://CodinMoldovanu.github.io/kiss-sever-security/</guid>
       <description>&lt;p&gt;KISS, as in Keep It Short, Simple is an acronym that I learned a few years ago yet it’s one of the best way to describe how almost anything should work. I’ll talk a bit about how to have a secure server (or VPS, if you’re into that kind of thing) and avoid any nasty chinese h4x0rs trying to login using &lt;em&gt;root&lt;/em&gt; as a username.&lt;/p&gt;
 &lt;p&gt;I’ll go about it in layers, from passive to active and from integrated to dedicated. I use Webmin/Virtualmin and Debian Jessie on my server, so some parts won’t apply to you if your configuration is different, but others will.&lt;/p&gt;</description>
     </item>
