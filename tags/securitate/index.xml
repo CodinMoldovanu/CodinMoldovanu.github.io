@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>securitate on Hello Friend NG</title>
+    <link>CodinMoldovanu.github.io/tags/securitate/</link>
+    <description>Recent content in securitate on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 11 Aug 2019 14:49:46 +0000</lastBuildDate><atom:link href="CodinMoldovanu.github.io/tags/securitate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cum să te cotești în 2019 de ochii albaștri</title>
+      <link>CodinMoldovanu.github.io/cum-sa-te-cotesti-in-2019-de-ochii-albastri/</link>
+      <pubDate>Sun, 11 Aug 2019 14:49:46 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/cum-sa-te-cotesti-in-2019-de-ochii-albastri/</guid>
+      <description>&lt;p&gt;A devenit din ce în ce mai greu să păstrăm securitatea datelor noastre, cu atât mai mult a anonimității noastre, așa că o să încerc să recomand foarte multe lucruri – majoritatea fiind catalogate drept paranoia, dar mai bine safe decât sorry, sau așa zice vorba. Cumva, în continuare, utilizatorul este cel mai vulnerabil – nu serviciile, așa că în ediția asta o să acopăr și protecția personală.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stop building stuff on sand – the Internet, Linux</title>
+      <link>CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/</link>
+      <pubDate>Fri, 21 Oct 2016 23:25:56 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/</guid>
+      <description>&lt;p&gt;You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.&lt;/p&gt;
+&lt;p&gt;The attack targeted Dyn’s DNS servers and took &lt;em&gt;down a shitload of websites (&lt;em&gt;well, not really took down, but I’ll explain further along&lt;/em&gt;)&lt;/em&gt;, including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Completări – Black Cube și Koveși</title>
+      <link>CodinMoldovanu.github.io/completari-black-cube-si-kovesi/</link>
+      <pubDate>Wed, 06 Apr 2016 18:28:18 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/completari-black-cube-si-kovesi/</guid>
+      <description>&lt;p&gt;Acum că am dormit, m-am trezit și am băut și 3 cafele am apucat să diger puțin informațiile de aseară, doar că în loc să aibă mai multă logică, unele au mult mai puțină.&lt;/p&gt;
+&lt;p&gt;O să le înșir semi-schematic, în cazul în care nici voi nu sunteți foarte băgați în priză.&lt;/p&gt;
+&lt;p&gt;RISE Project au fost cei care au dat drumul știrii referitoare la “actorii” ce încercau să afle lucruri compromițătoare despre Koveși, articolul fiind postat pe 5 Martie 2016. În articolul acestora se regăsesc niște date despre întâmplare cât și un PDF embed unde găsim două pagini ce alcătuiesc &lt;strong&gt;mandatul de arestare preventivă&lt;/strong&gt;. RISE aveau deja un PDF cu mandatul de arestare preventivă, la două zile de la decizie. Presupunem că RISE aveau o sursă în interior, deși dacă ai o sursă în interiorul Ministerului Justiției – statul în care te afli are o mare problemă*.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mossad tânăr, caut de muncă</title>
+      <link>CodinMoldovanu.github.io/mossad-tanar-caut-de-munca/</link>
+      <pubDate>Tue, 05 Apr 2016 23:55:58 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/mossad-tanar-caut-de-munca/</guid>
+      <description>Pe la 01:15 fumam o țigară liniștit și dădeam cu degetul pe ecranul telefonului citind pe diagonală diverse titluri, în cel mai plictisitor mod, până când mi-a apărut ceva de la băieții de la RISE Project. N-am neapărat o părere bună sau proastă despre ei, dar am o părere bună despre unii jurnaliști care scriu pentru ei (e.g. Ștefan Mako – lucrează și scrie la Casa Jurnalistului unele dintre cele mai bune reportaje pe care le-am citit în viața mea).</description>
+    </item>
+    
+    <item>
+      <title>“Mă ascultă” – Telefoanele și povestea lor</title>
+      <link>CodinMoldovanu.github.io/ma-asculta-telefoanele-si-povestea-lor/</link>
+      <pubDate>Thu, 16 Oct 2014 18:42:43 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/ma-asculta-telefoanele-si-povestea-lor/</guid>
+      <description>Ne reauzim cu această ocazie și începem să ne mutăm în cipherspace.
+După cum știm, sau ar trebui să știm, telefoanele sunt principalul mod de comunicare între oameni – cu excepția cazului în care ai stat sub o piatră în ultimii 50 de ani, caz în care poți să revii la minunatul tău băț aprins.
+Revenind la cei care folosesc aceste invenții, înainte de orice trebuie să înțelegem cum funcționează, așa că voi da niște mici explicații înainte de orice altceva.</description>
+    </item>
+    
+    <item>
+      <title>“Mă ascultă” Cum să îți muți întreaga viață în cipherspace</title>
+      <link>CodinMoldovanu.github.io/ma-asculta-cum-sa-iti-muti-intreaga-viata-in-cipherspace/</link>
+      <pubDate>Wed, 15 Oct 2014 12:13:03 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/ma-asculta-cum-sa-iti-muti-intreaga-viata-in-cipherspace/</guid>
+      <description>Toată lumea a devenit mai mult sau mai puțin paranoică în legătură cu ascultatul telefoanelor, urmăritul traficului unui user, sau orice altă metodă prin care intimitatea (discutăm și despre conceptul ăsta mai târziu) îi este încălcată.
+Merită menționat că majoritatea acestor temeri sunt destul de îndreptățite, chiar dacă nu din motivele potrivite. Da, e nasol că o să trebuiască să dăm CNP pentru a cumpăra o cartelă PrePay, dar nu e nasol pentru că “vai cât timp pierd să mai dau și CNP-ul” ci pentru că e al meu și n-am eu chef să-l dau, și nici chef să îmi explic motivele.</description>
+    </item>
+    
+  </channel>
+</rss>

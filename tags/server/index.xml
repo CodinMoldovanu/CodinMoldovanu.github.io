@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>server on Hello Friend NG</title>
+    <link>CodinMoldovanu.github.io/tags/server/</link>
+    <description>Recent content in server on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 21 Oct 2016 23:25:56 +0000</lastBuildDate><atom:link href="CodinMoldovanu.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop building stuff on sand – the Internet, Linux</title>
+      <link>CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/</link>
+      <pubDate>Fri, 21 Oct 2016 23:25:56 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/</guid>
+      <description>&lt;p&gt;You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.&lt;/p&gt;
+&lt;p&gt;The attack targeted Dyn’s DNS servers and took &lt;em&gt;down a shitload of websites (&lt;em&gt;well, not really took down, but I’ll explain further along&lt;/em&gt;)&lt;/em&gt;, including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>KISS – Sever Security</title>
+      <link>CodinMoldovanu.github.io/kiss-sever-security/</link>
+      <pubDate>Mon, 30 May 2016 20:28:25 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/kiss-sever-security/</guid>
+      <description>&lt;p&gt;KISS, as in Keep It Short, Simple is an acronym that I learned a few years ago yet it’s one of the best way to describe how almost anything should work. I’ll talk a bit about how to have a secure server (or VPS, if you’re into that kind of thing) and avoid any nasty chinese h4x0rs trying to login using &lt;em&gt;root&lt;/em&gt; as a username.&lt;/p&gt;
+&lt;p&gt;I’ll go about it in layers, from passive to active and from integrated to dedicated. I use Webmin/Virtualmin and Debian Jessie on my server, so some parts won’t apply to you if your configuration is different, but others will.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installing Linux to the HDD of an Xbox360</title>
+      <link>CodinMoldovanu.github.io/installing-linux-to-the-hdd-of-an-xbox360/</link>
+      <pubDate>Sat, 29 Aug 2015 22:29:38 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/installing-linux-to-the-hdd-of-an-xbox360/</guid>
+      <description>&lt;p&gt;This is a follow-up on the post regarding installing Debian on the Xbox360.&lt;/p&gt;
+&lt;p&gt;Most of the resources from the Free60 Project (which is now kinda dead) are either outdated or no longer available. Comcast user “ssmurf” did a good job hosting most of the files needed for the whole process , but I don’t know how longer he’ll host them, so I decided to mirror most of the files myself, including the debootstrap. Usually Linux archives have the tendency to become bloated and ridiculously hard to access.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

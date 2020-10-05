@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Moldovanu Codin">
+<meta name="description" content="You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.
+The attack targeted Dyn’s DNS servers and took down a shitload of websites (well, not really took down, but I’ll explain further along), including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.
+" />
+<meta name="keywords" content=", attack, ddos, debian, distro, dns, dyn, dyndns, hacking, internet, kernel, linux, securitate, server" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/" />
+
+
+    <title>
+        
+            Stop building stuff on sand – the Internet, Linux :: Hello Friend NG  — A simple theme for Hugo
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/CodinMoldovanu.github.io/main.393856bf2c430bb6c01d7af07c6fe966e7cce8073435cfbbc46e590bab7405ef.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Stop building stuff on sand – the Internet, Linux">
+<meta itemprop="description" content="You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.
+The attack targeted Dyn’s DNS servers and took down a shitload of websites (well, not really took down, but I’ll explain further along), including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.">
+<meta itemprop="datePublished" content="2016-10-21T23:25:56+00:00" />
+<meta itemprop="dateModified" content="2016-10-21T23:25:56+00:00" />
+<meta itemprop="wordCount" content="1446">
+<meta itemprop="image" content="CodinMoldovanu.github.io"/>
+
+
+
+<meta itemprop="keywords" content="attack,ddos,debian,distro,dns,dyn,dyndns,hacking,internet,kernel,linux,securitate,server," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="CodinMoldovanu.github.io"/>
+
+<meta name="twitter:title" content="Stop building stuff on sand – the Internet, Linux"/>
+<meta name="twitter:description" content="You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.
+The attack targeted Dyn’s DNS servers and took down a shitload of websites (well, not really took down, but I’ll explain further along), including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company."/>
+
+
+
+    <meta property="og:title" content="Stop building stuff on sand – the Internet, Linux" />
+<meta property="og:description" content="You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.
+The attack targeted Dyn’s DNS servers and took down a shitload of websites (well, not really took down, but I’ll explain further along), including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/" />
+<meta property="og:image" content="CodinMoldovanu.github.io"/>
+<meta property="article:published_time" content="2016-10-21T23:25:56+00:00" />
+<meta property="article:modified_time" content="2016-10-21T23:25:56+00:00" /><meta property="og:site_name" content="Hello Friend NG" />
+
+
+
+
+    <meta property="article:section" content="Linux" />
+
+    <meta property="article:section" content="Not-Daily" />
+
+    <meta property="article:section" content="Tech" />
+
+    <meta property="article:section" content="Uncategorized" />
+
+
+
+    <meta property="article:published_time" content="2016-10-21 23:25:56 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">/home/codin</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="CodinMoldovanu.github.io/CodinMoldovanu.github.io/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/">Stop building stuff on sand – the Internet, Linux</a></h2>
+
+            
+
+            
+
+            <div class="post-content">
+                <p>You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.</p>
+<p>The attack targeted Dyn’s DNS servers and took <em>down a shitload of websites (<em>well, not really took down, but I’ll explain further along</em>)</em>, including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.</p>
+<p>In simple terms, DNS is basically speed-dial for websites. You don’t memorize 62.231.78.23, you memorize “google.com”. Well, think of the IP as being the phone number, the domain name as the speed-dial button. If the speed dial doesn’t work, you gotta use the full phone number – so you could go to Google.com by typing in 62.231.78.23 if “Google.com” isn’t working, but you probably don’t have a post-it stuck to your PC saying “In case of emergency, dial 62.231.78.23 for Google”.</p>
+<p>DNS is old, clunky, and messy. After having set up an old school physical server with everything a server should have, from a DNS server down to installing OSSEC to receive live alerts regarding the security of it, I can honestly say that DNS is horrible. There are about 40 RFC’s (standards, good practices, etc.) that you should read to properly set up DNS for a server, and all that on a website that looks like something Stallman would see on his PC while browsing any website back in the 90’s. Oh look, here you can see an RFC from August 1990 and one from December 2015. In the same format, albeit a different colour scheme.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>I am being a bit pedantic, I admit, but you’d expect 26 years to be enough for a widely used technology to properly evolve further than adding IPv6 and DNSSEC. Open a Private Window, query Google for “dns” – I challenge you to find a link to anything official on the first page. You won’t, nor would anyone who just got a job as a SysAdmin at DynDNS – despite the fact that he should be properly trained, stuff like this still happens, just like some doctors screw up operations.</p>
+<p>How about stopping for a bit and challenging the IESG (Internet Engineering Steering Group) and IETF(Internet Engineering Task Force) to actually assess the situation at hand, and decide upon actual improvements, creating proper documentation and generally creating a proper professional environment regarding the technology so that you don’t have to open 40 tabs and read documentation that you may or may not need. Making the information more easily accessible and readable means more people will actually go through it and that means more security.</p>
+<p>There have generally been two trends in the internet world – centralization and decentralization. The latter being prefered by security enthusiasts, the first being prefered by snooping eyes and big companies, not necessarily in that order. It’s amazing really that DNS is still a centralized service which makes it vulnerable to such attacks – despite the standards requiring you to have at least 2 DNS servers in different IP classes, “preferably in different buildings, with different ISPs”, they’re still vulnerable. A decentralized system (look at the blockchain for example) is virtually unhackable, you just have your IP – domain list in your PC and nothing can happen to it, albeit there is a sizeable size issue with the number of domains registered having skyrocketed lately. (This is a gross oversimplification, but the idea is the same.)</p>
+<p>Regarding the attack – people will rush to say Russia, because <em>some countries</em> just love cold wars and trips to space – but in reality we just don’t know who did it. A few weeks ago the first IoT DDoS attack took place in which some 50,000 IP Cams attacked Brian Krebs’ website and took it down. The cams were infected with Mirai, a <em>(now)</em> open source botnet that managed to make its way around the globe.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>The people at Incapsula poked around in the source code and found something pretty silly, whoever created Mirai hardcoded a list of IPs that ought not to be disturbed (IPs found on a wiki page) that belonged to the US DoD, General Electric, HP, IANA and the US Postal Service. This smells like something a skiddie would do, and probably is.</p>
+<p>So, seeing how tools like Mirai are easily available on GitHub and other channels, why is anyone rushing to blame Russia and not some bored kid somewhere in Argentina? I mean, Russia could’ve done it, but don’t say it without having some actual proof.</p>
+<h2 id="dirty-cow">Dirty Cow</h2>
+<p>That’s the nickname given to <!-- raw HTML omitted -->CVE-<!-- raw HTML omitted -->2016-5195 which is a privilege escalation kernel vulnerability – basically giving non-privileged users root access. Vulnerabilities are common and they get patched pretty fast, except that Dirty Cow <!-- raw HTML omitted --><!-- raw HTML omitted -->has been there for 9 years and we’ve just discovered it now<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->. <!-- raw HTML omitted -->Funnily enough Kees Cook who works at Google recently published <!-- raw HTML omitted -->a paper that puts the average lifetime of a linux bug at 5 years<!-- raw HTML omitted -->. <!-- raw HTML omitted --></p>
+<p>Linux, is found on 65% of the top one million web servers in the world right now, so that’s about 650,000 web servers that are vulnerable to this bug. If half of those are VPSs with 5 users/server we come up with 325,000*5 = 1,625,000 possible privilege escalation opportunities. The problem is that despite the fact that Linux is said to be the most secure OS, and Open Source at the same time, bugs like these exist and we won’t know until they’re being used to exploit our “good guy” servers. If a kernel vulnerability that allows root access hasn’t surfaced despite living for 9 good years, what other “smaller” vulnerabilities do exist in the kernel?</p>
+<p>I mean, Linux is free and anyone can contribute but there are companies like RedHat that are using the Linux Kernel and creating software that requires expensive (I think) licenses, so you do expect a lot of security when _actually paying _for what’s basically a free product that already has a good record of security with the added license and goodies that RedHat bundles in with its OS.</p>
+<p>We should keep in mind that Linux development is way different than that of say Windows or Apple’s OS X (<em>or whatever they call it now)</em>. Linux is basically just a kernel, so developers work on tiny bugs (or big ones) and small optimizations, new hardware compat and generally stuff that you don’t really see on your screen. Either way, you – the end user – don’t just install the Linux kernel, you get a distro like Fedora, Debian, Ubuntu or Arch if you’re into BDSM and those things. There are a lot of distros, and I mean <a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg">A LOT of distros</a> (but personally, Debian is king, Elementary OS is nice). A distro has a Linux kernel and a GUI, among other things.</p>
+<p>So, with another gross simplification we have:</p>
+<ul>
+<li>A dev team working on the Linux Kernel</li>
+<li>Another dev team working on the general distro (e.g. Debian)</li>
+<li>Yet another dev team working on the GUI (e.g. KDE)</li>
+</ul>
+<p>Keep in mind that these are all different projects, with little or no connection between them whatsoever. Also keep in mind that there are 20+ actually used Linux distros, and 5+ actually used GUIs. We run into the same problem as the Android OS – <em>fragmentation</em>.</p>
+<p>There is such a huge amount of work simply wasted on reinventing the wheel over and over again, dev teams creating the same menu bars again and again to create “a new GUI” or to improve said GUI, hundreds of people creating new “distros” by just repackaging something already existing but using a different GUI and so on.</p>
+<p>As a conclusion, after steering off topic a bit, can we stop just building cities on thin ice and actually improve the said thin ice? Let’s rehaul DNS, or rethink it, or stop using it altogether. How about this – any company that’s maintaining a distro should have (ehm, as a good practice or something that will make them seem better in the eyes of the consumer) at least 5 researchers (should be called a LINUX KERNEL TASK FORCE) dedicated to Linux kernel development – slightly communistic, but they should be paid for this work so that solves the communistical problem.</p>
+<p> </p>
+<p>**Regarding the vulnerability – **You’ll be delighted to hear that it has been patched and a messenger pigeon will make its way downstream to your local linux distro maintainer to further fly even lower to your server with the patched kernel update, so please expect him with some water and a _apt-get update &amp;&amp; apt-get upgrade _prepared.</p>
+<h2 id="heading"></h2>
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/attack/">attack</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/ddos/">ddos</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/debian/">debian</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/distro/">distro</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/dns/">dns</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/dyn/">dyn</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/dyndns/">dyndns</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/hacking/">hacking</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/internet/">internet</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/kernel/">kernel</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/linux/">linux</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/securitate/">securitate</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/tags/server/">server</a></span>
+        
+    </p>
+
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+
+        <span class="tag"><a href="CodinMoldovanu.github.io/categories/linux/">Linux</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/categories/not-daily/">Not-Daily</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/categories/tech/">Tech</a></span>
+        <span class="tag"><a href="CodinMoldovanu.github.io/categories/uncategorized/">Uncategorized</a></span>
+        
+    </p>
+
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            <span><a href="CodinMoldovanu.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+          </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/CodinMoldovanu.github.io/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on Hello Friend NG</title>
+    <link>CodinMoldovanu.github.io/tags/technology/</link>
+    <description>Recent content in technology on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 24 Aug 2015 21:23:50 +0000</lastBuildDate><atom:link href="CodinMoldovanu.github.io/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What a time to be alive</title>
+      <link>CodinMoldovanu.github.io/what-a-time-to-be-alive/</link>
+      <pubDate>Mon, 24 Aug 2015 21:23:50 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/what-a-time-to-be-alive/</guid>
+      <description>&lt;p&gt;What a time to be alive, indeed. Technology has evolved so much, you can now do basically anything with just a few parts, regardless of the complexity of the project. From the mere and common resistor to the ESP8266 module, things have changed pretty fucking fast. IoT, Cloud, FW, whatever – we’re now used to seeing these abbreviations everywhere, although if you’d have told me 5 years ago that I’ll do 70% of my business in front of a PC, I would not have believed that.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

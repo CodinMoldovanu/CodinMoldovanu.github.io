@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bootloader on Hello Friend NG</title>
+    <link>CodinMoldovanu.github.io/tags/bootloader/</link>
+    <description>Recent content in bootloader on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 29 Aug 2015 22:29:38 +0000</lastBuildDate><atom:link href="CodinMoldovanu.github.io/tags/bootloader/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Linux to the HDD of an Xbox360</title>
+      <link>CodinMoldovanu.github.io/installing-linux-to-the-hdd-of-an-xbox360/</link>
+      <pubDate>Sat, 29 Aug 2015 22:29:38 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/installing-linux-to-the-hdd-of-an-xbox360/</guid>
+      <description>&lt;p&gt;This is a follow-up on the post regarding installing Debian on the Xbox360.&lt;/p&gt;
+&lt;p&gt;Most of the resources from the Free60 Project (which is now kinda dead) are either outdated or no longer available. Comcast user “ssmurf” did a good job hosting most of the files needed for the whole process , but I don’t know how longer he’ll host them, so I decided to mirror most of the files myself, including the debootstrap. Usually Linux archives have the tendency to become bloated and ridiculously hard to access.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

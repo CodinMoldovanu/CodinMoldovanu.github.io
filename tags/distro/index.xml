@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distro on Hello Friend NG</title>
+    <link>CodinMoldovanu.github.io/tags/distro/</link>
+    <description>Recent content in distro on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 21 Oct 2016 23:25:56 +0000</lastBuildDate><atom:link href="CodinMoldovanu.github.io/tags/distro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop building stuff on sand – the Internet, Linux</title>
+      <link>CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/</link>
+      <pubDate>Fri, 21 Oct 2016 23:25:56 +0000</pubDate>
+      
+      <guid>CodinMoldovanu.github.io/stop-building-stuff-on-sand-the-internet-linux/</guid>
+      <description>&lt;p&gt;You’ve probably heard about the big DNS attack on Dyn’s servers today, and you probably know that it was the main cause of “half the internet” not working properly today.&lt;/p&gt;
+&lt;p&gt;The attack targeted Dyn’s DNS servers and took &lt;em&gt;down a shitload of websites (&lt;em&gt;well, not really took down, but I’ll explain further along&lt;/em&gt;)&lt;/em&gt;, including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
