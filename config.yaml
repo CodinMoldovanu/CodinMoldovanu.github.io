@@ -1,7 +1,3 @@
 url: http://codin.ro
 name: Codin Moldovanu
 description: Internet, Security, Probably Law
-markup:
-    goldmark:
-      renderer:
-        unsafe: true

@@ -39,7 +39,7 @@ The attack targeted Dyn’s DNS servers and took down a shitload of websites (we
 The attack targeted Dyn’s DNS servers and took down a shitload of websites (well, not really took down, but I’ll explain further along), including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.">
 <meta itemprop="datePublished" content="2016-10-21T23:25:56+00:00" />
 <meta itemprop="dateModified" content="2016-10-21T23:25:56+00:00" />
-<meta itemprop="wordCount" content="1446">
+<meta itemprop="wordCount" content="1451">
 <meta itemprop="image" content="https://CodinMoldovanu.github.io"/>
 
 
@@ -110,7 +110,7 @@ The attack targeted Dyn’s DNS servers and took down a shitload of websites (we
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://CodinMoldovanu.github.io/posts">Blog</a></li>
+    <ul class="menu__inner"><li><a href="https://CodinMoldovanu.github.io/posts">~/blog</a></li><li><a href="https://CodinMoldovanu.github.io/contact">~/contact</a></li>
     </ul>
 </nav>
 
@@ -154,18 +154,25 @@ The attack targeted Dyn’s DNS servers and took down a shitload of websites (we
 <p>The attack targeted Dyn’s DNS servers and took <em>down a shitload of websites (<em>well, not really took down, but I’ll explain further along</em>)</em>, including Netflix, WSJ, Imgur, Reddit, Spotify, etc. According to CNBC citing Dyn “tens of millions of IP addresses” were sending packets and causing mayhem for the U.S. based company.</p>
 <p>In simple terms, DNS is basically speed-dial for websites. You don’t memorize 62.231.78.23, you memorize “google.com”. Well, think of the IP as being the phone number, the domain name as the speed-dial button. If the speed dial doesn’t work, you gotta use the full phone number – so you could go to Google.com by typing in 62.231.78.23 if “Google.com” isn’t working, but you probably don’t have a post-it stuck to your PC saying “In case of emergency, dial 62.231.78.23 for Google”.</p>
 <p>DNS is old, clunky, and messy. After having set up an old school physical server with everything a server should have, from a DNS server down to installing OSSEC to receive live alerts regarding the security of it, I can honestly say that DNS is horrible. There are about 40 RFC’s (standards, good practices, etc.) that you should read to properly set up DNS for a server, and all that on a website that looks like something Stallman would see on his PC while browsing any website back in the 90’s. Oh look, here you can see an RFC from August 1990 and one from December 2015. In the same format, albeit a different colour scheme.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p class="jetpack-slideshow-noscript robots-nocontent">
+  This slideshow requires JavaScript.
+</p>
+<div id="gallery-369-1-slideshow" class="slideshow-window jetpack-slideshow slideshow-black" data-trans="fade" data-autostart="1" data-gallery="[{&quot;src&quot;:&quot;https:\/\/codin.ro\/wp-content\/uploads\/2016\/10\/another.png&quot;,&quot;id&quot;:&quot;395&quot;,&quot;title&quot;:&quot;another&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;1990&quot;,&quot;itemprop&quot;:&quot;image&quot;},{&quot;src&quot;:&quot;https:\/\/codin.ro\/wp-content\/uploads\/2016\/10\/ietf2015.png&quot;,&quot;id&quot;:&quot;396&quot;,&quot;title&quot;:&quot;ietf2015&quot;,&quot;alt&quot;:&quot;&quot;,&quot;caption&quot;:&quot;2015&quot;,&quot;itemprop&quot;:&quot;image&quot;}]" itemscope itemtype="https://schema.org/ImageGallery">
+</div>
 <p>I am being a bit pedantic, I admit, but you’d expect 26 years to be enough for a widely used technology to properly evolve further than adding IPv6 and DNSSEC. Open a Private Window, query Google for “dns” – I challenge you to find a link to anything official on the first page. You won’t, nor would anyone who just got a job as a SysAdmin at DynDNS – despite the fact that he should be properly trained, stuff like this still happens, just like some doctors screw up operations.</p>
 <p>How about stopping for a bit and challenging the IESG (Internet Engineering Steering Group) and IETF(Internet Engineering Task Force) to actually assess the situation at hand, and decide upon actual improvements, creating proper documentation and generally creating a proper professional environment regarding the technology so that you don’t have to open 40 tabs and read documentation that you may or may not need. Making the information more easily accessible and readable means more people will actually go through it and that means more security.</p>
 <p>There have generally been two trends in the internet world – centralization and decentralization. The latter being prefered by security enthusiasts, the first being prefered by snooping eyes and big companies, not necessarily in that order. It’s amazing really that DNS is still a centralized service which makes it vulnerable to such attacks – despite the standards requiring you to have at least 2 DNS servers in different IP classes, “preferably in different buildings, with different ISPs”, they’re still vulnerable. A decentralized system (look at the blockchain for example) is virtually unhackable, you just have your IP – domain list in your PC and nothing can happen to it, albeit there is a sizeable size issue with the number of domains registered having skyrocketed lately. (This is a gross oversimplification, but the idea is the same.)</p>
 <p>Regarding the attack – people will rush to say Russia, because <em>some countries</em> just love cold wars and trips to space – but in reality we just don’t know who did it. A few weeks ago the first IoT DDoS attack took place in which some 50,000 IP Cams attacked Brian Krebs’ website and took it down. The cams were infected with Mirai, a <em>(now)</em> open source botnet that managed to make its way around the globe.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div id="attachment_419" style="width: 810px" class="wp-caption alignnone">
+  <a href="https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html" target="_blank"><img aria-describedby="caption-attachment-419" loading="lazy" class="alignnone size-full wp-image-419" src="http://codin.ro/wp-content/uploads/2016/10/mirai-botnet-map.png" alt="mirai-botnet-map" width="800" height="458" srcset="https://codin.ro/wp-content/uploads/2016/10/mirai-botnet-map.png 800w, https://codin.ro/wp-content/uploads/2016/10/mirai-botnet-map-300x172.png 300w, https://codin.ro/wp-content/uploads/2016/10/mirai-botnet-map-768x440.png 768w" sizes="(max-width: 800px) 100vw, 800px" /></a>
+  <p id="caption-attachment-419" class="wp-caption-text">
+    Incapsula.com
+  </p>
+</div>
 <p>The people at Incapsula poked around in the source code and found something pretty silly, whoever created Mirai hardcoded a list of IPs that ought not to be disturbed (IPs found on a wiki page) that belonged to the US DoD, General Electric, HP, IANA and the US Postal Service. This smells like something a skiddie would do, and probably is.</p>
 <p>So, seeing how tools like Mirai are easily available on GitHub and other channels, why is anyone rushing to blame Russia and not some bored kid somewhere in Argentina? I mean, Russia could’ve done it, but don’t say it without having some actual proof.</p>
 <h2 id="dirty-cow">Dirty Cow</h2>
-<p>That’s the nickname given to <!-- raw HTML omitted -->CVE-<!-- raw HTML omitted -->2016-5195 which is a privilege escalation kernel vulnerability – basically giving non-privileged users root access. Vulnerabilities are common and they get patched pretty fast, except that Dirty Cow <!-- raw HTML omitted --><!-- raw HTML omitted -->has been there for 9 years and we’ve just discovered it now<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->. <!-- raw HTML omitted -->Funnily enough Kees Cook who works at Google recently published <!-- raw HTML omitted -->a paper that puts the average lifetime of a linux bug at 5 years<!-- raw HTML omitted -->. <!-- raw HTML omitted --></p>
+<p>That’s the nickname given to <span class="st">CVE-<wbr />2016-5195 which is a privilege escalation kernel vulnerability – basically giving non-privileged users root access. Vulnerabilities are common and they get patched pretty fast, except that Dirty Cow <strong><em>has been there for 9 years and we’ve just discovered it now</em></strong><strong>. </strong>Funnily enough Kees Cook who works at Google recently published <a href="https://outflux.net/blog/archives/2016/10/18/security-bug-lifetime/">a paper that puts the average lifetime of a linux bug at 5 years</a>. </span></p>
 <p>Linux, is found on 65% of the top one million web servers in the world right now, so that’s about 650,000 web servers that are vulnerable to this bug. If half of those are VPSs with 5 users/server we come up with 325,000*5 = 1,625,000 possible privilege escalation opportunities. The problem is that despite the fact that Linux is said to be the most secure OS, and Open Source at the same time, bugs like these exist and we won’t know until they’re being used to exploit our “good guy” servers. If a kernel vulnerability that allows root access hasn’t surfaced despite living for 9 good years, what other “smaller” vulnerabilities do exist in the kernel?</p>
 <p>I mean, Linux is free and anyone can contribute but there are companies like RedHat that are using the Linux Kernel and creating software that requires expensive (I think) licenses, so you do expect a lot of security when _actually paying _for what’s basically a free product that already has a good record of security with the added license and goodies that RedHat bundles in with its OS.</p>
 <p>We should keep in mind that Linux development is way different than that of say Windows or Apple’s OS X (<em>or whatever they call it now)</em>. Linux is basically just a kernel, so developers work on tiny bugs (or big ones) and small optimizations, new hardware compat and generally stuff that you don’t really see on your screen. Either way, you – the end user – don’t just install the Linux kernel, you get a distro like Fedora, Debian, Ubuntu or Arch if you’re into BDSM and those things. There are a lot of distros, and I mean <a href="https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg">A LOT of distros</a> (but personally, Debian is king, Elementary OS is nice). A distro has a Linux kernel and a GUI, among other things.</p>
@@ -236,8 +243,7 @@ The attack targeted Dyn’s DNS servers and took down a shitload of websites (we
     </div>
     <div class="footer__inner">
         <div class="footer__content">
-            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
-            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>#theme by <a href="https://github.com/rhazdon">@rhazdon</a></span>
           </div>
     </div>
 </footer>

@@ -103,7 +103,7 @@ Evident, am ajuns aici în urma evenimentului de-a dreptul încredibil care a av
         <span class="header__right">
             
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="https://CodinMoldovanu.github.io/posts">Blog</a></li>
+    <ul class="menu__inner"><li><a href="https://CodinMoldovanu.github.io/posts">~/blog</a></li><li><a href="https://CodinMoldovanu.github.io/contact">~/contact</a></li>
     </ul>
 </nav>
 
@@ -149,11 +149,11 @@ Evident, am ajuns aici în urma evenimentului de-a dreptul încredibil care a av
 <p>Așa că am aruncat un ochi pe mirifica aplicație. Inițial mă pregătisem mai serios, cu decompilator cu alea alea, fraier am fost pentru că aveam nevoie doar de un editor de text, aplicația fiind făcută cu Cordova. Adică jeg, și nu orice jeg, jeg JavaScript care rulează pe Android – kind of jeg.</p>
 <p>Pot în primă fază să <strong>confirm că aplicația nu trimite date acasă la fiecare zece minute</strong>, nu îți copiază fiecare selfie nud, ci trimite niște date către un API doar la apăsarea butonului roșu.</p>
 <p>Datele efective care sunt trimise sunt latitudinea, longitudinea, acuratețea GPS-ului, timpul via GPS și numărul de telefon completat de tine (deci există o șansă să greșești numărul de telefon și să nu te găsească iar STS-ul…).</p>
-<p><!-- raw HTML omitted --></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-672" src="https://codin.ro/wp-content/uploads/2019/07/location_tracker.png" alt="" width="567" height="158" srcset="https://codin.ro/wp-content/uploads/2019/07/location_tracker.png 567w, https://codin.ro/wp-content/uploads/2019/07/location_tracker-300x84.png 300w" sizes="(max-width: 567px) 100vw, 567px" /></p>
 <h4 id="hateresc-deci-exist">Hateresc deci exist</h4>
 <p>Trebuie să ne și luăm de ceva, așa că urmează:</p>
 <p><strong>NOUĂZECIȘIȘAPTE (97)</strong> de printări către consolă (console.log()) – pe o aplicație în producție, care n-are consolă, și care probabil n-ajung nicăieri, doar umplu memoria de nimicuri constante care ar putea fi furate de alte aplicații care și-ar pune mintea.</p>
-<p><!-- raw HTML omitted --></p>
+<p><img loading="lazy" class="alignnone size-full wp-image-677" src="https://codin.ro/wp-content/uploads/2019/07/infosec_lol.png" alt="" width="463" height="158" srcset="https://codin.ro/wp-content/uploads/2019/07/infosec_lol.png 463w, https://codin.ro/wp-content/uploads/2019/07/infosec_lol-300x102.png 300w" sizes="(max-width: 463px) 100vw, 463px" /></p>
 <p> </p>
 <p><strong>INFOSEC? NEVER HEARD OF IT</strong>. Băi, aici e posibil să fiu eu ridicol, dar în același timp vorbim de un sistem care e destul de <strong>critic</strong> totuși, așa că mna, here goes. Serios, ați lăsat tokenul pentru requesturi chiar aici? Existau soluții mai decente decât un API în PHP și un token static, e oarecum ridicol că trebuie să zic asta. E oarecum ridicol că asta e o aplicație recomandată de STS (hahaha ăia care voiau să învețe clustere că se descurcă ei singuri hahahahahahaha MOR DE RÂS). Sper că apreciază lumea faptul că am cenzurat 99% din token-ul ăla. Serios. Am fost băiat bun.</p>
 <p>Problema, în română pentru restul, e că un utilizator rău intenționat poate să “inunde” sistemul lor de localizare sau ce morții lor face prostia asta de aplicație, și să facă toată aplicația lor inutilă, pentru că …există metode, și loop-urile sunt niște ghimpi în coasta programatorilor care știu despre securitate doar că le trebuie parole cu peste 6 caractere și minim două numere. E <strong>inimaginabil</strong> de rea-practică ce vedem mai sus, practic aplicațiile terțe cărora le-ai dat tu acces la contul tău Google sunt mai sigure din punct de vedere al autentificării.</p>
@@ -221,8 +221,7 @@ Evident, am ajuns aici în urma evenimentului de-a dreptul încredibil care a av
     </div>
     <div class="footer__inner">
         <div class="footer__content">
-            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
-            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>#theme by <a href="https://github.com/rhazdon">@rhazdon</a></span>
           </div>
     </div>
 </footer>

@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/codin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://codin.ro
+  * I am codin (https://keybase.io/codin) on keybase.
+  * I have a public key ASCe_5PvVYRQG0FZIifulaUbPrlQCxCLGfaTtdN11WR92go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cb575626d72046847dde94b639c0107f9c83ef65a4a4aec91c8513fb9c96eff00a",
+      "host": "keybase.io",
+      "kid": "01209eff93ef5584501b41592227ee95a51b3eb9500b108b19f693b5d375d5647dda0a",
+      "uid": "1cbdfb40a4edea2606250410f7c0f919",
+      "username": "codin"
+    },
+    "merkle_root": {
+      "ctime": 1602531684,
+      "hash": "eeb63f1fa47d6920c028b115f5994eba1682f3ed2dccd12330dfc5c60512311780d6bb344e712823c9f03b9f82d5e9eceb961a17d46c3efec17d422ad7d98729",
+      "hash_meta": "41808576df9455a3245d8b5d57dc1dd383d10ce669e34bbe4fde8dc2d978bc92",
+      "seqno": 17810343
+    },
+    "service": {
+      "entropy": "oz62Zg3cfFl7T5nwpzRJCCXt",
+      "hostname": "codin.ro",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1602531716,
+  "expire_in": 504576000,
+  "prev": "2435b5faed653df6d68d51da55a0c7a3849185888367772beee0fa262b598e1b",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnv+T71WEUBtBWSIn7pWlGz65UAsQixn2k7XTddVkfdoKp3BheWxvYWTESpcCH8QgJDW1+u1lPfbWjVHaVaDHo4SRhYiDZ3cr7uD6JitZjhvEIMuJNddpe4BtePQd7Pe5kVncfh0mk34s99m0SZ8VDcF3AgHCo3NpZ8RAWBkCzEO1/yWpriQImJUzhCp02Hujrb8W6RobKqHdsQu1dOn8kABtctW1qXWfcZvy1OfcxqRzKHXxr7DIMhHMD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBKDiX2jVGMdpEVdRr9KqrSykp4WlF05Jy138t/vLOUoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/codin
+
+==================================================================
